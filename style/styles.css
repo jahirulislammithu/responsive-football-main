@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* body */
+body { 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ---------------section one------------ */
+
+.container-one { 
+    background: #2D25A0;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-column-gap:  102px;
+    align-items: center;
+    justify-items: center;
+    padding: 135px 140px 86px 156px;
+    
+}
+
+.container-text h1 { 
+    font-size: 64px;
+    margin: 0;
+}
+
+.watch-button {
+    
+    width: 120px;
+    padding: 10px 24px;
+    background: #E02C6D;
+
+
+}
+
+.watch-button a {  
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;    
+}
+
+.watch-button i { 
+    margin-left:  8px;
+}
+
+.banner-image img {
+    width: 556.01px;
+    height: 438px;
+
+}
+
+/* --------------section two-------------- */
+
+
+.players { 
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 27px 30px;
+    align-items: center;
+    justify-items: center;
+     margin-left:  450px;
+     margin-right: 450px;
+     margin-top: 70px;
+
+}
+.player { 
+    
+    padding: 15px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-img img { 
+    width: 300px;
+    height: 256px;
+}
+
+.player-info {
+    width: 300px;
+    height: 154px
+} 
+.player-info h3 {
+    
+    font-size: 28px;
+    margin: 10px 0px;
+}
+.player-info p {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+/* ---------section footer ----------*/
+
+.footer  { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 157px;
+    margin-bottom: 64px;
+
+}
+
+.footer img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-media-icon i {
+    background-color:  #969bab34 ;
+    color:  #969BAB;
+    border-radius: 50%;
+    margin: 0px 7px;
+    padding: 7px 7px;
+    
+}
+
+/* -----------section footer end--------- */
